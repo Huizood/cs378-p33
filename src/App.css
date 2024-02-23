@@ -57,22 +57,23 @@ b {
 }
 
 .i {
-  width: 15px;
-  height: 15px;
+  width: clamp(15px, 1.5vw, 30px);
+  height: clamp(15px, 1.5vw, 30px);
+  font-size: clamp(10px, .8vw, 16px);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  font-size: 15px;
   border: 1px solid;
   cursor: pointer;
 }
-.col-sm-1{
+.col-3{
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .counts {
   display: flex;
@@ -81,9 +82,8 @@ b {
   font-size: 15px;
   margin: 0;
 }
-.col-3{
-  text-align:end;
-}
+
+
 .col-4 {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -132,10 +132,6 @@ b {
   align-items: center;
   gap: 1rem; 
  }
- .subtotal{
-  text-align: left;
-  margin-top: 10px;
-  justify-content:left;
- }
+ 
 
  

@@ -155,24 +155,25 @@ function App() {
 
       <div className="container">
         <div className="row">
-          <div className="col-3 subtotal">
+          <div className="col-4 subtotal">
             <p className="subtotal">Subtotal ${total}</p>
           </div>
+          <div className="col-6 test">
+          <div className="button-container two">
+            <button onClick={Order} className="order">
+              <span className="orders">Order</span>
+            </button>
+            <button onClick={clearAll} className="clear">
+              <span className="clears">Clear all</span>
+            </button>
+          </div>
         </div>
-        <div className = "col-4 test">
-        <div className="button-container two">
-        <button onClick={Order} className="order">
-          <span className="orders">Order</span>
-        </button>
-        <button onClick={clearAll} className="clear">
-          <span className="clears">Clear all</span>
-        </button>
+        </div>
+       
+
+
+
       </div>
-        </div>
-        
-
-
-    </div>
     </div >
   );
 }
