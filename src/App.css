@@ -111,6 +111,7 @@ b {
   cursor: pointer;
   line-height: 1; /* Adjust the line-height value as needed */
   margin: 0; /* Remove any margin */
+  border: 1px solid;
  }
  .clear {
   width: 80px;
@@ -123,6 +124,7 @@ b {
   cursor: pointer;
   line-height: 1;
   margin: 0; 
+  border: 1px solid;
  }
  .two{
   display: flex;
